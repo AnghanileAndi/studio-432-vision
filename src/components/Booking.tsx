@@ -24,22 +24,22 @@ export function Booking() {
             </p>
 
             <div className="mt-10 space-y-5">
-              <a href="https://wa.me/910000000000" className="flex items-center gap-4 group">
+              <a href="https://wa.me/919211257104" className="flex items-center gap-4 group">
                 <div className="w-11 h-11 rounded-full bg-taupe/15 border border-taupe/30 flex items-center justify-center group-hover:bg-taupe transition">
                   <MessageCircle className="w-4 h-4 text-taupe group-hover:text-espresso" />
                 </div>
                 <div>
                   <div className="text-xs tracking-widest uppercase text-ivory/40">WhatsApp</div>
-                  <div className="text-ivory">+91 00000 00000</div>
+                  <div className="text-ivory">+91 92112 57104</div>
                 </div>
               </a>
-              <a href="mailto:hello@studio432.com" className="flex items-center gap-4 group">
+              <a href="mailto:stu6io432@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-11 h-11 rounded-full bg-taupe/15 border border-taupe/30 flex items-center justify-center group-hover:bg-taupe transition">
                   <Mail className="w-4 h-4 text-taupe group-hover:text-espresso" />
                 </div>
                 <div>
                   <div className="text-xs tracking-widest uppercase text-ivory/40">Email</div>
-                  <div className="text-ivory">hello@studio432.com</div>
+                  <div className="text-ivory">stu6io432@gmail.com</div>
                 </div>
               </a>
               <a href="https://instagram.com/studio432" className="flex items-center gap-4 group">
@@ -57,7 +57,7 @@ export function Booking() {
                 </div>
                 <div>
                   <div className="text-xs tracking-widest uppercase text-ivory/40">Studio</div>
-                  <div className="text-ivory">432 Creative Lane, Bengaluru</div>
+                  <div className="text-ivory">Studio 432, H-93, Block H, Beta II, Greater Noida, Uttar Pradesh 201306</div>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ export function Booking() {
             <div className="mt-10 rounded-2xl overflow-hidden border border-sand/10 h-56">
               <iframe
                 title="Studio location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=77.58%2C12.95%2C77.62%2C12.99&layer=mapnik"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=77.4840%2C28.4644%2C77.5240%2C28.4844&layer=mapnik&marker=28.4744%2C77.5040"
                 className="w-full h-full grayscale-[40%] opacity-80"
                 loading="lazy"
               />

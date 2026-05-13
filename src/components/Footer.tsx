@@ -25,9 +25,9 @@ export function Footer() {
           <div>
             <div className="text-xs tracking-[0.3em] uppercase text-taupe mb-4">Contact</div>
             <ul className="space-y-2 text-ivory/60 text-sm">
-              <li>hello@studio432.com</li>
-              <li>+91 00000 00000</li>
-              <li>432 Creative Lane,<br />Bengaluru</li>
+              <li><a href="mailto:stu6io432@gmail.com" className="hover:text-taupe">stu6io432@gmail.com</a></li>
+              <li><a href="tel:+919211257104" className="hover:text-taupe">+91 92112 57104</a></li>
+              <li>Studio 432, H-93, Block H,<br />Beta II, Greater Noida,<br />Uttar Pradesh 201306</li>
             </ul>
             <div className="flex gap-3 mt-5">
               {[

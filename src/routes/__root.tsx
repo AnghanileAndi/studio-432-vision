@@ -73,7 +73,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Studio 432 — Music Reimagined" },
-      { name: "description", content: "Studio 432 is a premium multimedia studio in Bengaluru for recording, photography, videography, and creative production." },
+      { name: "description", content: "Studio 432 is a premium multimedia studio in Greater Noida for recording, photography, videography, and creative production." },
       { name: "author", content: "Studio 432" },
       { property: "og:title", content: "Studio 432 — Music Reimagined" },
       { property: "og:description", content: "Premium multimedia studio for recording, photography, videography, and creative production." },
