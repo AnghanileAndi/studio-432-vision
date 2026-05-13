@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Studio 432 — Music Reimagined" },
+      { name: "description", content: "Studio 432 is a premium multimedia studio in Bengaluru for recording, photography, videography, and creative production." },
+      { name: "author", content: "Studio 432" },
+      { property: "og:title", content: "Studio 432 — Music Reimagined" },
+      { property: "og:description", content: "Premium multimedia studio for recording, photography, videography, and creative production." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "Studio 432" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
