@@ -30,9 +30,13 @@ export function Footer() {
               <li>432 Creative Lane,<br />Bengaluru</li>
             </ul>
             <div className="flex gap-3 mt-5">
-              {[Instagram, Youtube, Music2].map((I, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-full border border-sand/20 flex items-center justify-center text-ivory/70 hover:bg-taupe hover:text-espresso hover:border-taupe transition">
-                  <I className="w-4 h-4" />
+              {[
+                { Icon: Instagram, label: "Instagram" },
+                { Icon: Youtube, label: "YouTube" },
+                { Icon: Music2, label: "Spotify" },
+              ].map(({ Icon, label }) => (
+                <a key={label} href="#" aria-label={`Studio 432 on ${label}`} className="w-9 h-9 rounded-full border border-sand/20 flex items-center justify-center text-ivory/70 hover:bg-taupe hover:text-espresso hover:border-taupe transition">
+                  <Icon className="w-4 h-4" aria-hidden="true" />
                 </a>
               ))}
             </div>

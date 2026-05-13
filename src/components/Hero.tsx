@@ -63,7 +63,8 @@ export function Hero() {
             transition={{ delay: 0.5, duration: 1 }}
             className="font-display text-6xl md:text-8xl lg:text-9xl font-light tracking-tight leading-[0.95] text-gradient-warm"
           >
-            STUDIO 432
+            <span className="sr-only">Studio 432 — Music Reimagined</span>
+            <span aria-hidden="true">STUDIO 432</span>
           </motion.h1>
 
           <motion.p

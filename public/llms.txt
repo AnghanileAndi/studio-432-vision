@@ -1,0 +1,7 @@
+# Studio 432
+
+> Premium multimedia studio in Bengaluru for recording, photography, videography, and creative production. Tagline: Music Reimagined.
+
+## Pages
+
+- [Home](/): Studio overview, services, portfolio, experience, testimonials, and booking.

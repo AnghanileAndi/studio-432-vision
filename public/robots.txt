@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://studio-432-reimagined.lovable.app/sitemap.xml
