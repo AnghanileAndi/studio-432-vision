@@ -98,14 +98,14 @@ export function Portfolio() {
             onClick={() => setLightbox(null)}
             className="fixed inset-0 z-[60] bg-espresso/95 backdrop-blur-xl flex items-center justify-center p-6"
           >
-            <button onClick={() => setLightbox(null)} className="absolute top-6 right-6 text-ivory/70 hover:text-ivory">
+            <button onClick={() => setLightbox(null)} aria-label="Close preview" className="absolute top-6 right-6 text-ivory/70 hover:text-ivory">
               <X className="w-8 h-8" />
             </button>
             <motion.img
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               src={lightbox}
-              alt="Preview"
+              alt={`${items.find((i) => i.src === lightbox)?.title ?? "Studio 432"} — ${items.find((i) => i.src === lightbox)?.cat ?? "portfolio"} preview`}
               className="max-w-[90vw] max-h-[85vh] rounded-2xl shadow-2xl"
             />
           </motion.div>
