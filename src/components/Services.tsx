@@ -14,9 +14,9 @@ const services = [
     icon: Users,
     title: "Jampad / Rehearsal",
     price: "₹600",
-    unit: "/ session",
+    unit: "/ hour",
     desc: "Spacious rehearsal room equipped for full bands. Tiered pricing built for crews of every size.",
-    tags: ["Up to 6 — ₹600", "Up to 10 — ₹800", "10+ — ₹1000"],
+    tags: ["Up to 6 — ₹600/hr", "Up to 10 — ₹800/hr", "10+ — ₹1000/hr"],
   },
   {
     icon: Video,
