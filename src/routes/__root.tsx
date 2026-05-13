@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Studio 432 — Music Reimagined" },
+      { title: "Studio 432 - Music Reimagined" },
       { name: "description", content: "Studio 432 is a premium multimedia studio in Greater Noida for recording, photography, videography, and creative production." },
       { name: "author", content: "Studio 432" },
-      { property: "og:title", content: "Studio 432 — Music Reimagined" },
-      { property: "og:description", content: "Premium multimedia studio for recording, photography, videography, and creative production." },
+      { property: "og:title", content: "Studio 432 - Music Reimagined" },
+      { property: "og:description", content: "Studio 432 is a premium multimedia studio in Greater Noida for recording, photography, videography, and creative production." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Studio 432" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Studio 432 - Music Reimagined" },
+      { name: "twitter:description", content: "Studio 432 is a premium multimedia studio in Greater Noida for recording, photography, videography, and creative production." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/J4gWwIghiIY87hOHjYmOV4uiNuO2/social-images/social-1778670706578-Studio_432_Logo-3D.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/J4gWwIghiIY87hOHjYmOV4uiNuO2/social-images/social-1778670706578-Studio_432_Logo-3D.webp" },
     ],
     links: [
       {
