@@ -65,7 +65,7 @@ export function Booking() {
             <div className="mt-10 rounded-2xl overflow-hidden border border-sand/10 h-56">
               <iframe
                 title="Studio location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=77.5ptr%2C28.46%2C77.54%2C28.49&layer=mapnik&marker=28.4744,77.5040"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=77.4840%2C28.4644%2C77.5240%2C28.4844&layer=mapnik&marker=28.4744%2C77.5040"
                 className="w-full h-full grayscale-[40%] opacity-80"
                 loading="lazy"
               />
